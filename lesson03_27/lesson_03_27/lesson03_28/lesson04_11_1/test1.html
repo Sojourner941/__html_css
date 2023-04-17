@@ -1,40 +1,63 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top {
+            background-color: #f2f5d5;
+            width: 300px;
+            height: 100px;
+            overflow: scroll;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid gray;
+        }
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <style>
-            
-            /*
-            content-box模式
-            
-            #top{
-                background-color: antiquewhite;
-                width:500px;
-                margin: 20px;
-                border: 5px solid gray
-            */
-            border-box模式
-            #top{
-                background-color: antiquewhite;
-                width:500px;
-                height:150px;
-                padding:20px;
-                margin:20px;
-                border: 5px solid gray;
-            }
-            
-        </style>
-    </head>
-    <body>
-        <div id="top">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Inventore consequuntur ipsam repudiandae nemo eligendi consequatur expedita eveniet reiciendis, magnam porro assumenda atque architecto. Corporis, quia nesciunt expedita accusamus eius doloribus. 
-        </div>
-        </body>
+        #bottom {
+            box-sizing: border-box;
+            background-color: #f2f5d5;
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid gray;
+        }
+
+        blockquote{
+            background-color: beige;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            padding-left: 4em;
+            padding-right: 4em;
+        }
+
+        #border{
+            width: 200px;
+            height: 100px;
+            background-color: darkorange;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 2em;
+            border-bottom-right-radius: 1em;
+            border-bottom-right-radius: 2em;
+            padding: 1em;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <p id="top">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?</p>
+
+    <p id="bottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?</p>
+    <blockquote>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?</p>
+    
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?</p>
+    </blockquote>>
+
+    <p id="border">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati beatae ipsa enim laboriosam quaerat dolore tenetur praesentium cupiditate dolorem vel commodi, blanditiis ipsum delectus sed culpa repellat. Culpa, numquam quas?
+    </p>
+</body>
 </html>
