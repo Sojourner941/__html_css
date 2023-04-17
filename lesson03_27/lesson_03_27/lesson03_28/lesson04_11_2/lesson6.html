@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <style>
+            #container{
+                background: #f2f5d5;
+                border: 2px dashed green;
+            }
+
+            p{
+                float:left;
+                width:44%;
+                padding:2%
+            }
+            #container::after{
+                content:" ";
+                display: block;
+                clear:both;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="container">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem voluptates beatae quibusdam animi facere laborum quo eos itaque. Mollitia facilis asperiores accusantium facere nulla, saepe dicta sint voluptates.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda autem voluptates beatae quibusdam animi facere laborum quo eos itaque. Mollitia facilis asperiores accusantium facere nulla, saepe dicta sint voluptates.</p>
+       </div>
+        <script src="" async defer></script>
+    </body>
+</html>
