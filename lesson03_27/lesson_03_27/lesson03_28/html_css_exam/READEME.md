@@ -1,5 +1,5 @@
  # 網頁驗收
- ## 第一部分 github repo 的建立和成為web server
+ ## 第一部分 github repo 的建立和成為web Server
 
  1. ### 使用gh指令建github的repo
     - gh repo create my-project --public --clone
