@@ -6,3 +6,7 @@
  2. ### 上傳至github
 
  3. ### github設定為page, 首頁名稱使用index.html
+
+ ## 第二部分 製作Responsive Web Design (RWD)
+
+ 1. ### 套用bootstrap的css和js檔
