@@ -11,7 +11,7 @@ body{
 #layout{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 200px;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "header"
     "content"
@@ -41,20 +41,12 @@ body{
 
 #cards section{
     flex: 0 1 100%;
-    border:1px black solid;
+    padding:2em;
 }
 
-#cards section.s1{
-    background-color: blueviolet;
-}
-
-#cards section.s2{
-    background-color: brown;
-}
-
-#cards h1{
-    text-align: center;
-    margin: 2em 0em;
+#cards section div{
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2)
 }
 
 #cards h2{
@@ -67,7 +59,7 @@ body{
 
 header img{
     display: block;
-    margin: 0 auto 2em;
+    margin: 1em auto 2em;
 }
 
 footer ul{
@@ -80,6 +72,7 @@ footer ul{
 }
 
 footer address{
+    margin-top: 2em;
     text-align: center;
     font-size: small;
     color: lightgray;
@@ -87,7 +80,7 @@ footer address{
 
 footer ul a:link{
     text-decoration: none;
-    color: black;
+    color: lightgray;
 }
 
 footer ul a:hover{
@@ -103,7 +96,7 @@ footer ul img, footer ul span{
 
 footer ul li{
     list-style-type: none;
-    padding: auto;
+    padding: 0 1em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
